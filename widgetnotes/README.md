@@ -1,16 +1,9 @@
-# widgetnotes
+# Widget Notes
 
 Basic notes of how to use various flutter widgets
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Use the main.dart file to get going with skeleton project of flutter.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Use widget_notes.dart to find help for basic UI widgets for flutter.
