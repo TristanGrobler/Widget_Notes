@@ -43,10 +43,11 @@ Widget myText = Text(
 /// TextStyle is used to set how text looks                                 ///
 ///////////////////////////////////////////////////////////////////////////////
 TextStyle myTextStyle = TextStyle(
-  color: Colors.yellow, // set color of text
-  fontSize: 20, // set size of text
-  fontWeight: FontWeight.bold, // set if text is bold, normal or italics
-);
+    color: Colors.yellow, // set color of text
+    fontSize: 20, // set size of text
+    fontWeight: FontWeight.bold, // set how bold text is
+    fontStyle: FontStyle.italic // set if font is italics or not
+    );
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Column is used to lay widgets vertically                                ///
