@@ -94,7 +94,7 @@ Widget myIcon = Icon(
 );
 
 ///////////////////////////////////////////////////////////////////////////////
-/// Image.network is to display and image from the internet                 ///
+/// Image.network is to display an image from the internet                 ///
 ///////////////////////////////////////////////////////////////////////////////
 Widget myImageNetwork = Image.network(
   'https://.........', // REQUIRED!!! link to the image must be between ' and '
