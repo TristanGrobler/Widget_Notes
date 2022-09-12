@@ -58,7 +58,7 @@ Widget myColumn = Column(
   crossAxisAlignment:
       CrossAxisAlignment.center, // set how widgets are displayed horizontally
   children: [
-    // Widget for the column go between the [ and ].
+    // Widget for the column go between the [ and ]. (Seperate by a comma)
   ],
 );
 
@@ -71,7 +71,7 @@ Widget myRow = Row(
   crossAxisAlignment:
       CrossAxisAlignment.center, // set how widgets are displayed vertically
   children: [
-    // Widget for the row go between the [ and ].
+    // Widget for the row go between the [ and ]. (Seperate by a comma)
   ],
 );
 
@@ -82,6 +82,23 @@ Widget mySingleChildScrollView = SingleChildScrollView(
   scrollDirection:
       Axis.vertical, // set whether scroll works vertically or horizontally
   child: Column(), // use child:.... to set what child must be scrollable.
+);
+
+///////////////////////////////////////////////////////////////////////////////
+/// Stack is used to display widgets on top of each other                   ///
+///////////////////////////////////////////////////////////////////////////////
+Widget myStack = Stack(
+  children: [
+    // Widget for the Stack go between the [ and ]. (Seperate by a comma)
+  ],
+);
+
+///////////////////////////////////////////////////////////////////////////////
+/// Align is used to set where the widget aligned is in the stack.          ///
+///////////////////////////////////////////////////////////////////////////////
+Widget myAlign = Align(
+  alignment: Alignment.center, // set where the widgets aligns.
+  child: Container(), // set what widget is being aligned.
 );
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -107,4 +124,20 @@ Widget myImageNetwork = Image.network(
 Widget myImageAsset = Image.asset(
   'assets/image.png', // REQUIRED!!! path to the image must be between ' and '
   fit: BoxFit.cover, // set how image is contained in the parent widget
+);
+
+///////////////////////////////////////////////////////////////////////////////
+/// ClipRRect is used to shape a widget, for eg rounding corners.           ///
+///////////////////////////////////////////////////////////////////////////////
+Widget myClipRRect = ClipRRect(
+  borderRadius: BorderRadius.circular(30.0), // set how rounded corners are
+  child: Container(), // set which widget you want to shape
+);
+
+///////////////////////////////////////////////////////////////////////////////
+/// ClipRRect is used to shape a widget, for eg rounding corners.           ///
+///////////////////////////////////////////////////////////////////////////////
+Widget myExpanded = Expanded(
+  flex: 2, // set what ratio of free space is taken up
+  child: Container(), // REQUIRED!!! set what widget is being expanded
 );
