@@ -46,7 +46,8 @@ TextStyle myTextStyle = TextStyle(
     color: Colors.yellow, // set color of text
     fontSize: 20, // set size of text
     fontWeight: FontWeight.bold, // set how bold text is
-    fontStyle: FontStyle.italic // set if font is italics or not
+    fontStyle: FontStyle.italic, // set if font is italics or not
+    overflow: TextOverflow.ellipsis // set what to do when text is too long
     );
 
 ///////////////////////////////////////////////////////////////////////////////
