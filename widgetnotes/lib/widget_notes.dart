@@ -136,7 +136,7 @@ Widget myClipRRect = ClipRRect(
 );
 
 ///////////////////////////////////////////////////////////////////////////////
-/// ClipRRect is used to shape a widget, for eg rounding corners.           ///
+/// Expanded is used to take up all available space on screen.              ///
 ///////////////////////////////////////////////////////////////////////////////
 Widget myExpanded = Expanded(
   flex: 2, // set what ratio of free space is taken up
